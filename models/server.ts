@@ -19,11 +19,12 @@ class Server {
   }
 
   //TODO: Conectar base de datos
-  
+
 
   middleware() {
     //cors
     this.app.use(cors());
+    //git
 
     //lectura del body
     this.app.use(express.json());

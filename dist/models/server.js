@@ -21,6 +21,7 @@ class Server {
     middleware() {
         //cors
         this.app.use(cors_1.default());
+        //git
         //lectura del body
         this.app.use(express_1.default.json());
         //carpeta publica
